@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "lostclient",
+  "version": "${version}",
+  "name": "Lost Client",
+  "description": "Lost Client - black and white PvP client for Fabric 1.21",
+  "environment": "client",
+  "entrypoints": { "client": ["com.lostclient.LostClient"] },
+  "depends": {
+    "fabricloader": ">=0.15.0",
+    "minecraft": "1.21.x",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
